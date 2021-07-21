@@ -1,0 +1,20 @@
+# Exclude files and fyletypes
+Icon?
+*.log
+log.txt
+Thumbs.db
+.DS_Store
+.bash_history
+desktop.ini
+
+# Exclude system directories and files
+/node_modules/*
+/.composer/*
+/.cache/*
+/.idea/*
+/.ssh/*
+/.npm/*
+/_dev/*
+/_test/*
+/_deny/*
+/_html/*

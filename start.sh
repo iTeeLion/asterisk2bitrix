@@ -1,0 +1,1 @@
+screen -AmdS "asterist2bitrix integration server" ./server.sh

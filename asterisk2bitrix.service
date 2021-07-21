@@ -1,0 +1,11 @@
+[Unit]
+Description=Asterisk2bitrix integrtion server
+After=network-online.target
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/home/bitrix/asterisk2bx24/
+ExecStart=/usr/bin/node /home/bitrix/asterisk2bx24/server.js
+
+[Install]
+WantedBy=multi-user.target
